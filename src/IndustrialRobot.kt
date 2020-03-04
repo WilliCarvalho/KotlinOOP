@@ -8,12 +8,12 @@ class IndustrialRobot: Robot {
 
     }
 
-    override fun off() {
-        TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
+    override fun on(){
+        println("Robot On")
     }
 
-    override fun on() {
-        TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
+    override fun off() {
+        println("Robot off");
     }
 
 
